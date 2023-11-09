@@ -1,0 +1,24 @@
+{
+  "short_name": "TreeSort",
+  "name": "TreeSort",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48"
+    },
+    {
+      "src": "icons8-evergreen-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "tree.svg",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}
