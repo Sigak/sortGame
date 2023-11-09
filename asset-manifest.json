@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sortGame/static/css/main.02c66f99.css",
+    "main.js": "/sortGame/static/js/main.01c87990.js",
+    "index.html": "/sortGame/index.html",
+    "static/media/fragment.svg": "/sortGame/static/media/fragment.7a8b2924b26de28de7fe.svg",
+    "main.02c66f99.css.map": "/sortGame/static/css/main.02c66f99.css.map",
+    "main.01c87990.js.map": "/sortGame/static/js/main.01c87990.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02c66f99.css",
+    "static/js/main.01c87990.js"
+  ]
+}
