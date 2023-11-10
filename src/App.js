@@ -7,7 +7,7 @@ export default function Game() {
         {
             path: "/",
             loader: () => {
-                const currentLevel = window.localStorage.getItem('currentLevel') || 0;
+                const currentLevel = window.localStorage.getItem('currentLevel') || 1;
                 return redirect(`/level/${currentLevel}`);
             },
         },
@@ -15,8 +15,8 @@ export default function Game() {
             path: "/level/:levelId",
             element: <Level/>,
             loader: ({ params }) => {
-                window.localStorage.setItem("currentLevel", params.levelId || 0);
-                return config[params.levelId] || config[0];
+                window.localStorage.setItem("currentLevel", params.levelId || 1);
+                return config[params.levelId - 1] || config[0];
             },
         },
     ]);

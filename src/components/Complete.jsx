@@ -1,11 +1,12 @@
 import {Link} from "react-router-dom";
 
 export default function Complete(params) {
-    const {nextLevel} = params;
+    const {levelId} = params;
 
     return (
-        <div className="complete">
-            <Link to={`/level/${nextLevel}`}><span>УРА!</span></Link>
-        </div>
+            <Link to={`/level/${+levelId + 1}`} className="complete">
+                <span>{`Уровень: ${levelId}`}</span>
+                <span className="status">Пройден!</span>
+            </Link>
     );
 }

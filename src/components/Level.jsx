@@ -54,7 +54,7 @@ function Level() {
                     </Item>
                 ))}
             </div>
-            {isSorted && (<Complete nextLevel={+levelId + 1}/>)}
+            {isSorted && (<Complete levelId={levelId}/>)}
         </>
     );
 }

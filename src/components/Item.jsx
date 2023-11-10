@@ -1,6 +1,6 @@
 import {Tree} from "./Tree"
 
-const STEP = 10;
+const STEP = 15;
 export default function Item(props) {
     const {value, isSelected, onClick} = props;
     const height = value * STEP;
